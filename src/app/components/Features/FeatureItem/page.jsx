@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types';
 import './page.css'
 
 const FeatureItem = ({itemTitle, itemDis, itemUrl}) => {
@@ -13,5 +13,5 @@ const FeatureItem = ({itemTitle, itemDis, itemUrl}) => {
     )
 }
 
-
+FeatureItem.propTypes = { itemTitle: PropTypes.string.isRequired, itemDis: PropTypes.string.isRequired, itemUrl: PropTypes.string.isRequired, };
 export default FeatureItem
