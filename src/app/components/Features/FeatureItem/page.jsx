@@ -1,14 +1,14 @@
 
 import './page.css'
 
-const FeatureItem = ({title, description, link}) => {
+const FeatureItem = ({itemTitle, itemDis, itemUrl}) => {
     return(
         <div className="featur-card-item">
             <div className='round-con'>
-                <img src={link} alt={title} className='round-img'/>
+                <img src={itemUrl} alt={itemTitle} className='round-img'/>
             </div>
-            <h5 className='feature-item-title'>{title}</h5>
-            <p className='feature-item-p'>{description}</p>
+            <h5 className='feature-item-title'>{itemTitle}</h5>
+            <p className='feature-item-p'>{itemDis}</p>
         </div>
     )
 }
