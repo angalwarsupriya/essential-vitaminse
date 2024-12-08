@@ -1,7 +1,9 @@
-import PropTypes from 'prop-types';
 import './page.css'
 
-const FeatureItem = ({itemTitle, itemDis, itemUrl}) => {
+import PropTypes from 'prop-types';
+
+const FeatureItem = (props) => {
+    const {itemTitle, itemDis, itemUrl} = props
     return(
         <div className="featur-card-item">
             <div className='round-con'>
@@ -13,5 +15,11 @@ const FeatureItem = ({itemTitle, itemDis, itemUrl}) => {
     )
 }
 
-FeatureItem.propTypes = { itemTitle: PropTypes.string.isRequired, itemDis: PropTypes.string.isRequired, itemUrl: PropTypes.string.isRequired, };
+FeatureItem.propTypes = { 
+    title: PropTypes.string.isRequired, 
+    description: PropTypes.string.isRequired, 
+    link: PropTypes.string.isRequired, 
+};
+
+
 export default FeatureItem
