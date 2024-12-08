@@ -1,0 +1,54 @@
+.blog-bg-con{
+    height: 90vh;
+    width: 100vw;
+    background-color: hotpink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blog-con{
+    width: 76%;
+    height:89%;
+    background-color: antiquewhite;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-blog-hea{
+    font-size: 16px;
+    color: rgb(23, 19, 51);
+}
+.latest-news-hea{
+    font-size: 25px;
+    color: rgb(23, 19, 51);
+}
+
+.blog-row{
+    height: 100%;
+    width: 23%;
+    background-color: black;
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.short-con{
+    height: 35%;
+    width: 100%;
+    background-color: rgb(236, 71, 71);
+    border-radius: 20px;
+    position: relative;
+}
+.long-con{
+    height: 60%;
+    width: 100%;
+    background-color: rgb(86, 80, 80);
+    border-radius: 20px;
+    position: relative;
+}
+.hero-img{
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+    border-radius: 20px;
+}

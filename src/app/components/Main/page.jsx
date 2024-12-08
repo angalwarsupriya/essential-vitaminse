@@ -1,6 +1,6 @@
 import React from 'react'
 import './page.css'
-
+import Image from 'next/image'
 
 
 function Main() {
@@ -18,34 +18,45 @@ function Main() {
             </div>
             <div className='main-image-con'>
                 <div className='img-top-con'>
-                  <div className='img-con'></div>
-                  <img src='/images/2023, 15_42_43 GMT+3.png' className='captuals-bottle-img' alt='captuals-bottle'/>
+                  <div className='img-design-con'></div>
+                  <div className='captuals-bottle-img'>
+                  <Image src='/images/2023, 15_42_43 GMT+3.png' layout='fill' loading='lazy' objectFit='cover'  alt='captuals-bottle'/>
                 </div>
+              </div>
+
             </div>
+
+
             <div className='main-right-con'>
               <div className='all-items-con'>
                 <div className='item-con'>
-                  <img src='/images/Frame-8365.png.png' alt='vitamins captual' className='item-img' />
+                <div className='item-icon-con'>
+                  <Image src='/images/Frame-8365.png.png' alt='vitamins captual' className='item-img'   layout='fill' loading='lazy' objectFit='cover'/>
+                  </div>
                   <div className='item-content-con'>
                       <h4 className='item-title'>Vitamins</h4>
-                      <p className='item-dis'>Increased Vitamins and Minarals in your diet</p>
+                      <p className='item-dis'>Increased Vitamins and Minarals in your diet.</p>
                   </div> 
                 </div>
 
                 <div className='item-con'>
-                  <img src='/images/Frame-8365.png.png' alt='weight loss' className='item-img' />
+                <div className='item-icon-con'>
+                  <Image src='/images/Frame-8365.png.png' alt='weight loss' className='item-img'  layout='fill' loading='lazy' objectFit='cover' />
+                </div>
                   <div className='item-content-con'>
-                      <h4 className='item-title'>Vitamins</h4>
-                      <p className='item-dis'>Increased Vitamins and Minarals in your diet</p>
+                      <h4 className='item-title'>Weight Lose</h4>
+                      <p className='item-dis'>Weight Lose Find sceintifically proven.</p>
                   </div> 
                 </div>
 
 
                 <div className='item-con'>
-                  <img src='/images/Frame-8365.png.png' alt='functional foods' className='item-img' />
+                  <div className='item-icon-con'>
+                  <Image src='/images/Frame-8365.png.png' alt='functional foods' className='item-img'  layout='fill' loading='lazy' objectFit='cover' />
+                  </div>
                   <div className='item-content-con'>
-                      <h4 className='item-title'>Vitamins</h4>
-                      <p className='item-dis'>Increased Vitamins and Minarals in your diet</p>
+                      <h4 className='item-title'>Functional Food</h4>
+                      <p className='item-dis'>Functional Food from protien power to baby formula.</p>
                   </div> 
                 </div>
 
@@ -54,7 +65,8 @@ function Main() {
 
           </div>
           <div className='pagination-con'>
-
+            <div className='dot-con'></div>
+            <div className='dot-con'></div>
           </div>
        </div>      
     </main>

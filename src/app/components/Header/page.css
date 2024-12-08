@@ -11,14 +11,14 @@
 .logo{
     height: 50px;
     width: 200px;
-    margin-left: 5%;
+    position: relative;
 }
 
 @media screen and (max-width:300px){
     .logo{
         height: 50px;
         width: 200px;
-        margin-left: 5%;
+        margin-left: 1%;
     }
 }
 
@@ -62,6 +62,6 @@
     .logo{
         height: 50px;
         width: 200px;
-        margin-left: 5%;
+        margin-left: 3%;
     }
 }

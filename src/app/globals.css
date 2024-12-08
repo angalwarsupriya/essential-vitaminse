@@ -42,3 +42,8 @@ a {
     color-scheme: dark;
   }
 }
+p{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 20px;
+}

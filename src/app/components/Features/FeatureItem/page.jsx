@@ -1,13 +1,13 @@
 import './page.css'
-
+import Image from 'next/image';
 import PropTypes from 'prop-types';
 
 const FeatureItem = (props) => {
     const {itemTitle, itemDis, itemUrl} = props
     return(
         <div className="featur-card-item">
-            <div className='round-con'>
-                <img src={itemUrl} alt={itemTitle} className='round-img'/>
+            <div className='round-con'>            
+                <img src={itemUrl} alt={itemTitle} className='round-img' loading='lazy'/>           
             </div>
             <h5 className='feature-item-title'>{itemTitle}</h5>
             <p className='feature-item-p'>{itemDis}</p>

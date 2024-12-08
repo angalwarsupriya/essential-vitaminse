@@ -36,7 +36,12 @@
 .pagination-con{
     height: 40%;
     width: 97%;
+    background-color: rgb(81, 93, 93);
+    padding-left: 5%;
+    padding-top: 2%;
+    display: flex;
 }
+
 .main-left-con{
     height: 100%;
     width: 32%;
@@ -103,14 +108,14 @@
     position: relative;
     background-color: aqua;
 }
-.img-con{
+.img-design-con{
     height: 90%;
     width: 70%;
     border-top-left-radius:100px;
     border-bottom-right-radius: 100px;
-    background-color: antiquewhite;
-    
+    background-color: antiquewhite;   
 }
+
 .captuals-bottle-img{
    height: 390px;
    width: 390px;
@@ -129,9 +134,14 @@
     display: flex;
     align-items:center;
     height: 30%;
-    width: 90%;
+    width: 100%;
     background-color: antiquewhite;
     margin-bottom: 10px;
+}
+.item-icon-con{
+    height: 90.6%;
+    width: 19.8%;
+    position: relative;
 }
 .item-content-con{
     height: 100%;
@@ -153,4 +163,11 @@
 .item-img{
     height: 80%;
     width: 20%;
+}
+.dot-con{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(147, 148, 149);
+    border-radius: 15px;
+    margin-right: 6px;
 }

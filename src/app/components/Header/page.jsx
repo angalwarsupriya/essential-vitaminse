@@ -5,7 +5,9 @@ import Image from 'next/image'
 function Header() {
   return (
     <header className='header-bg-con'>
-       <img src="/images/image.png" alt="Description" className='logo' />
+      <div className='logo'>
+       <Image src="/images/image.png" alt="Description" className='logo'  loading='lazy' layout='fill' objectFit='cover' />
+      </div>
     </header>
   )
 }
