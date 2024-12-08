@@ -1,0 +1,156 @@
+.main-bg-con{
+    height: 90vh;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.essential-vitaminse-main-con{
+    height: 100%;
+    width: 95%;
+    padding-left: 2%;
+    background-color: rgb(171, 212, 248);
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.essential-vitaminse-main-hea{
+   font-size: 60px;
+   color: rgb(19, 36, 78);
+   font-weight: bolder;
+   font-family: Roboto;
+   letter-spacing: 5px;
+   margin-left: 4%;
+}
+
+.main-container{
+    height:60%;
+    width: 97%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.pagination-con{
+    height: 40%;
+    width: 97%;
+}
+.main-left-con{
+    height: 100%;
+    width: 32%;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    justify-content: center;
+}
+
+.con{
+    height: 60%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+
+}
+.main-image-con{
+    height: 100%;
+    width: 36%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+
+}
+.main-right-con{
+    height: 100%;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.online-medical-p{
+    font-size: 17px;
+    color: rgb(102, 103, 104);
+    
+}
+.main-left-h{
+    font-size: 28px;
+    color:  rgb(19, 36, 78);  
+    letter-spacing: 1px;
+    width: 100%; 
+}
+
+.explore-more-btn{
+    height: 40px;
+    width: 130px;
+    border-radius: 20px;
+    background-color:  rgb(19, 36, 78) ;
+    border: none;
+    font-size: 14px;
+}
+.img-top-con{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: aqua;
+}
+.img-con{
+    height: 90%;
+    width: 70%;
+    border-top-left-radius:100px;
+    border-bottom-right-radius: 100px;
+    background-color: antiquewhite;
+    
+}
+.captuals-bottle-img{
+   height: 390px;
+   width: 390px;
+   position:absolute;
+   bottom:2%;
+   left: 0%;
+}
+
+.all-items-con{
+    height: 80%;
+    width: 80%;
+    background-color: aquamarine;
+}
+
+.item-con{
+    display: flex;
+    align-items:center;
+    height: 30%;
+    width: 90%;
+    background-color: antiquewhite;
+    margin-bottom: 10px;
+}
+.item-content-con{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+}
+.item-title{
+    font-size: 19px;
+    color:  rgb(19, 36, 78) ;
+}
+.item-dis{
+   color: rgb(102, 103, 104);
+   font-size: 15px;
+   margin-top: 10px;
+}
+.item-img{
+    height: 80%;
+    width: 20%;
+}

@@ -1,0 +1,39 @@
+.featur-card-item{
+    height: 35%;
+    width: 28%;
+    background-color: aquamarine;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.round-con{
+    height: 50%;
+    width: 32%;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-bottom: 5%;
+    position: relative;
+    bottom: 20%;
+    margin-bottom: 0px;
+}
+.round-img{
+    height: 40%;
+    width: 40%;
+}
+.feature-item-title{
+    font-size:20px;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.feature-item-p{
+    font-size:15px;
+    color: rgb(232, 229, 229);
+    text-align: center;
+}

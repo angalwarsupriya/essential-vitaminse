@@ -1,0 +1,67 @@
+.header-bg-con{
+    height: 10vh;
+    width: 200vw;
+    box-shadow: 1px 3px 4px 5px rgb(231, 229, 232);
+    display: flex;
+    align-items: center;
+}
+
+
+
+.logo{
+    height: 50px;
+    width: 200px;
+    margin-left: 5%;
+}
+
+@media screen and (max-width:300px){
+    .logo{
+        height: 50px;
+        width: 200px;
+        margin-left: 5%;
+    }
+}
+
+
+@media screen and (min-width:301px) and (max-width:500px){
+    .logo{
+        height: 35px;
+        width: 100px;
+        margin-left: 5%;
+    }
+}
+
+
+
+@media screen and (min-width:501px) and (max-width:767px){
+    .logo{
+        height: 40px;
+        width: 150px;
+        margin-left: 5%;
+    }
+}
+
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    .logo{
+        height: 50px;
+        width: 200px;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1200px){
+    .logo{
+        height: 50px;
+        width: 200px;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (min-width:1201px){
+    .logo{
+        height: 50px;
+        width: 200px;
+        margin-left: 5%;
+    }
+}
