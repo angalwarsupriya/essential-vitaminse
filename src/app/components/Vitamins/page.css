@@ -1,5 +1,4 @@
 .vitamins-bg-con{
-    height: 70vh;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -8,27 +7,29 @@
 .vitamin-card-con{
     height: 220px;
     width: 320px;
-    background-color: rgb(154, 137, 154);
     margin-right: 30px;
     position: relative;
 }
+
 .design-card-con{
     height: 220px;
     width: 120px;
-    background-color: rgb(154, 137, 154);
     margin-right: 30px;
     position: relative;
 }
+
 .indrediants-bg-con{
     height:220px ;
     width: 36%;
     margin-right: 5%;
     padding: 3%;
 }
+
 .vitamins-details-container{
     height: 100%;
-    width: 80%;
+    width: 90%;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
 .card-img{
@@ -42,7 +43,7 @@
 }
 .better-hea{
     font-size: 24px;
-    color: rgb(10, 44, 12);
+    color:#17414f;
     margin-top: 3px;
     margin-bottom: 2px;
     
@@ -53,3 +54,353 @@
     line-height: 25px;
 
 }
+
+
+@media screen and (max-width:300px){
+    .vitamin-card-con{
+        width: 45%;
+        height: 150px;
+        margin-bottom: 10px;
+        margin: 5px;
+    }
+    .design-card-con{
+        width: 45%;
+        height: 150px;  
+        margin: 5px;
+    }
+    .vitamins-bg-con{     
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    }
+    .indrediants-bg-con{
+        width: 80.5%;
+        height: 140px;
+        padding: 3%;
+    }
+    .ingrediants-hea{
+        font-size: 15px;
+        color:rgb(21, 21, 39);
+    
+    }
+    .better-hea{
+        font-size: 18px;
+        color: rgb(10, 44, 12);
+        margin-top: 3px;
+        margin-bottom: 2px;
+        
+    }
+    .para{
+        font-size: 11px;
+        color: rgb(101, 102, 103);
+        line-height: 25px;
+    
+    }
+
+}
+@media screen and (min-width:301px) and (max-width:400px){
+   
+        .vitamin-card-con{
+            width: 45%;
+            height: 150px;
+            margin-bottom: 10px;
+            margin: 5px;
+        }
+        .design-card-con{
+            width: 45%;
+            height: 150px;  
+            margin: 5px;
+        }
+        .vitamins-bg-con{     
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+        }
+        .indrediants-bg-con{
+            width: 80.5%;
+            height: 140px;
+            padding: 3%;
+        }
+        .ingrediants-hea{
+            font-size: 15px;
+            color:rgb(21, 21, 39);
+        
+        }
+        .better-hea{
+            font-size: 18px;
+            color: rgb(10, 44, 12);
+            margin-top: 3px;
+            margin-bottom: 2px;
+            
+        }
+        .para{
+            font-size: 11px;
+            color: rgb(101, 102, 103);
+            line-height: 25px;
+        
+        }
+
+}
+@media screen and (min-width:400px) and (max-width:450px){
+    @media screen and (min-width:350px) and (max-width:500px){
+
+        .vitamin-card-con{
+            width: 30%;
+            height: 150px;
+            margin-bottom: 10px;
+            margin: 5px;
+        }
+        .design-card-con{
+            width: 30%;
+            height: 150px;  
+            margin: 5px;
+        }
+        .vitamins-bg-con{     
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+        }
+        .indrediants-bg-con{
+            width: 80.5%;
+            height: 150px;
+            padding: 3%;
+        }
+        .ingrediants-hea{
+            font-size: 15px;
+            color:rgb(21, 21, 39);
+        
+        }
+        .better-hea{
+            font-size: 18px;
+            color: rgb(10, 44, 12);
+            margin-top: 3px;
+            margin-bottom: 2px;
+            
+        }
+        .para{
+            font-size: 11px;
+            color: rgb(101, 102, 103);
+            line-height: 25px;
+        
+        }
+    }
+    
+}
+
+
+@media screen and (min-width:450px) and (max-width:500px){
+
+    .vitamin-card-con{
+        width: 42.5%;
+        height: 170px;
+        margin-bottom: 10px;
+    }
+    .design-card-con{
+        width: 40%;
+        height: 170px;  
+    }
+    .vitamins-bg-con{     
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    }
+    .indrediants-bg-con{
+        width: 80.5%;
+        height: 170px;
+        padding: 3%;
+    }
+    .ingrediants-hea{
+        font-size: 15px;
+        color:rgb(21, 21, 39);
+    
+    }
+    .better-hea{
+        font-size: 18px;
+        color: rgb(10, 44, 12);
+        margin-top: 3px;
+        margin-bottom: 2px;
+        
+    }
+    .para{
+        font-size: 11px;
+        color: rgb(101, 102, 103);
+        line-height: 25px;
+    
+    }
+}
+
+
+@media screen and (min-width:500px) and (max-width:600px){
+    .vitamin-card-con{
+        width: 27%;
+        height: 160px;
+        margin-right: 6px;
+    }
+    .design-card-con{
+        width: 8%;
+        height: 160px;   
+
+    }
+    .vitamins-bg-con{     
+     
+    }
+    .indrediants-bg-con{
+        height:160px ;
+        width: 36%;
+        padding: 3%;
+    }
+    .ingrediants-hea{
+        font-size: 10px;
+        color:rgb(21, 21, 39);
+    
+    }
+    .better-hea{
+        font-size: 16px;
+        color: rgb(10, 44, 12);
+        margin-top: 3px;
+        margin-bottom: 2px;
+        
+    }
+    .para{
+        font-size: 11px;
+        color: rgb(101, 102, 103);
+        line-height: 25px;
+    
+    }
+
+}
+@media screen and (min-width:600px) and (max-width:700px){
+
+    .vitamin-card-con{
+        width: 26%;
+        height: 180px;
+        margin-right: 10px;
+    }
+    .design-card-con{
+        width: 10%;
+        height: 180px;   
+    }
+    .vitamins-bg-con{     
+      height: 55vh;
+    }
+    .indrediants-bg-con{
+        height:180px ;
+        width: 36%;
+        margin-right: 5%;
+        padding: 3%;
+    }
+    .ingrediants-hea{
+        font-size: 13px;
+        color:rgb(21, 21, 39);
+    
+    }
+    .better-hea{
+        font-size: 20px;
+        color: rgb(10, 44, 12);
+        margin-top: 3px;
+        margin-bottom: 2px;
+        
+    }
+    .para{
+        font-size: 12px;
+        color: rgb(101, 102, 103);
+        line-height: 25px;
+    
+    }
+}
+
+
+@media screen and (min-width:700px) and (max-width:767px){
+    .vitamin-card-con{
+        width: 26%;
+        height: 180px;
+        margin-right: 10px;
+    }
+    .design-card-con{
+        width: 10%;
+        height: 180px;   
+    }
+    .vitamins-bg-con{     
+      height: 55vh;
+    }
+    .indrediants-bg-con{
+        height:180px ;
+        width: 36%;
+        margin-right: 5%;
+        padding: 3%;
+    }
+    .ingrediants-hea{
+        font-size: 13px;
+        color:rgb(21, 21, 39);
+    
+    }
+    .better-hea{
+        font-size: 20px;
+        color: rgb(10, 44, 12);
+        margin-top: 3px;
+        margin-bottom: 2px;
+        
+    }
+    .para{
+        font-size: 12px;
+        color: rgb(101, 102, 103);
+        line-height: 25px;
+    
+    }
+}
+
+
+@media screen and (min-width:767px) and (max-width:1024px){
+    
+    .vitamin-card-con{
+        width: 26%;
+        height: 180px;
+        margin-right: 10px;
+    }
+    .design-card-con{
+        width: 10%;
+        height: 180px;   
+    }
+    .vitamins-bg-con{     
+      height: 55vh;
+    }
+    .indrediants-bg-con{
+        height:180px ;
+        width: 36%;
+        margin-right: 5%;
+        padding: 3%;
+    }
+    .ingrediants-hea{
+        font-size: 13px;
+        color:rgb(21, 21, 39);
+    
+    }
+    .better-hea{
+        font-size: 20px;
+        color: rgb(10, 44, 12);
+        margin-top: 3px;
+        margin-bottom: 2px;
+        
+    }
+    .para{
+        font-size: 12px;
+        color: rgb(101, 102, 103);
+        line-height: 25px;
+    
+    }
+    
+}
+
+@media screen and (min-width:1024px) and (max-width:1300px){
+.vitamin-card-con{
+    width: 27%;
+    height: 200px;
+    margin-right: 10px;
+}
+.design-card-con{
+    width: 10%;
+    height: 200px;   
+}
+}
+
+

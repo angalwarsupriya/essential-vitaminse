@@ -1,5 +1,4 @@
 import './page.css'
-import Image from 'next/image';
 import PropTypes from 'prop-types';
 
 const FeatureItem = (props) => {

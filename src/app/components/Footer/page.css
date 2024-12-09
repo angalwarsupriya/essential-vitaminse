@@ -6,21 +6,24 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-
 }
+
 .footer-con1{
     height: 40%;
-    width: 80%;
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
+
 .footer-con2{
     height: 40%;
-    width: 80%;
+    width: 90%;
     display: flex;
     align-items: center;
+}
+.footer-para-con{
+    width: 60%;
 }
 .footer-con3{
     height: 15%;
@@ -43,16 +46,10 @@
     align-items: center;
     padding-left: 1%;
 }
-.icon-con{
-    width: 12%;
-    height: 34%;
-    position: relative;
 
-}
-.icon{
-    height: 100%;
-    width: 100%;
-    position: relative;
+.hero-img{
+    height: 30px;
+    width: 30px
 }
 .icon-information-con{
     width: 80%;
@@ -75,10 +72,8 @@
     margin-top: 3px;
 }
 .footer-para{
-    font-size: 13px;
-    color: rgb(200, 201, 202);
-    width: 50%;
-    margin-left: 5%;
+    font-size: 15px;
+   margin-left: 5%;
 }
 .location-p{
     font-size: 12px;
@@ -88,4 +83,160 @@
 .location-icon{
     font-size: 17px;
     margin-left: 2%;
+}
+@media screen and (min-width:300px) and (max-width:400px){
+
+    .footer-con2{
+        flex-direction: column;
+    }
+
+    .footer-para-con{
+        width: 100%;
+        height: 50%;
+        margin-top: 0px;
+    }
+    .footer-para{
+        width: 100%;
+
+    }
+    .footer-bg-con{
+        height: 30vh;
+    }
+    .icon-information-row{
+        height: 60%;
+        width: 40%;
+        margin-right: 10px;        
+    }    
+    .hero-img{
+        height: 17px;
+        width: 17px
+ 
+    }
+    .row-title{
+        font-size: 8px;
+        color: rgb(206, 202, 202);
+        margin: 0px;
+        margin-bottom: 0px;
+    }
+    .row-dis{
+        font-size: 6px;
+        color:white;
+        margin-top: 0px;
+        line-height: 9px;
+
+    }
+    .footer-para{
+        font-size: 8px;
+        color: rgb(200, 201, 202);
+        width: 100%;
+        margin-left: 5%;
+        line-height: 9px;
+    }
+    .location-p{
+        font-size: 7px;
+        color:white;
+        margin-left:10px;
+    }
+    .location-icon{
+        font-size: 10px;
+        margin-left: 2%;
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:500px){
+
+    .footer-con2{
+        flex-direction: column;
+    }
+
+    .footer-para-con{
+        width: 100%;
+        height: 50%;
+    }
+    .footer-para{
+        width: 100%;
+    }
+    .footer-bg-con{
+        height: 30vh;
+    }
+    .icon-information-row{
+        height: 60%;
+        width: 40%;
+        margin-right: 10px;        
+    }    
+    .hero-img{
+        height: 17px;
+        width: 17px
+ 
+    }
+    .row-title{
+        font-size: 10px;
+        color: rgb(206, 202, 202);
+        margin: 0px;
+        margin-bottom: 0px;
+    }
+    .row-dis{
+        font-size: 8px;
+        color:white;
+        margin-top: 0px;
+        line-height: 9px;
+
+    }
+    .footer-para{
+        font-size: 10px;
+        color: rgb(200, 201, 202);
+        width: 100%;
+        margin-left: 5%;
+        line-height: 14px;
+    }
+    .location-p{
+        font-size: 10px;
+        color:white;
+        margin-left:10px;
+    }
+    .location-icon{
+        font-size: 15px;
+        margin-left: 2%;
+    }
+}
+
+
+@media screen and (min-width:500px) and (max-width:768px){
+    .icon-information-row{
+        height: 60%;
+        width: 40%;
+        margin-right: 10px;        
+    }    
+    .hero-img{
+        height: 26px;
+        width: 26px
+ 
+    }
+    .row-title{
+        font-size: 12px;
+        color: rgb(206, 202, 202);
+        margin: 0px;
+        margin-bottom: 0px;
+    }
+    .row-dis{
+        font-size: 10px;
+        color:white;
+        margin-top: 3px;
+    }
+    .footer-para{
+        font-size: 10px;
+        color: rgb(200, 201, 202);
+        width: 90%;
+        margin-left: 5%;
+        line-height: 13px;
+    }
+    .location-p{
+        font-size: 11px;
+        color:white;
+        margin-left:10px;
+    }
+    .location-icon{
+        font-size: 16px;
+        margin-left: 2%;
+    }
 }

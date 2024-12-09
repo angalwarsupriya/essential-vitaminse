@@ -20,6 +20,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <title>Essential Vitamins</title>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
       </body>

@@ -14,11 +14,11 @@
     background-color: rgb(171, 212, 248);
     display: flex;
     flex-direction: column;
-   align-items: center;
+    align-items: center;
 }
 .essential-vitaminse-main-hea{
    font-size: 60px;
-   color: rgb(19, 36, 78);
+   color:#17414F;
    font-weight: bolder;
    font-family: Roboto;
    letter-spacing: 5px;
@@ -36,7 +36,6 @@
 .pagination-con{
     height: 40%;
     width: 97%;
-    background-color: rgb(81, 93, 93);
     padding-left: 5%;
     padding-top: 2%;
     display: flex;
@@ -58,7 +57,6 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: stretch;
-
 }
 .main-image-con{
     height: 100%;
@@ -67,8 +65,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: beige;
-
 }
 .main-right-con{
     height: 100%;
@@ -106,28 +102,26 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    background-color: aqua;
 }
 .img-design-con{
-    height: 90%;
+    height: 80%;
     width: 70%;
-    border-top-left-radius:100px;
-    border-bottom-right-radius: 100px;
+    border-top-left-radius:130px;
+    border-bottom-right-radius: 130px;
     background-color: antiquewhite;   
 }
 
 .captuals-bottle-img{
-   height: 390px;
-   width: 390px;
+   height: 400px;
+   width: 400px;
    position:absolute;
-   bottom:2%;
-   left: 0%;
+   bottom:20%;
+   left: 5%;
 }
 
 .all-items-con{
     height: 80%;
     width: 80%;
-    background-color: aquamarine;
 }
 
 .item-con{
@@ -135,7 +129,7 @@
     align-items:center;
     height: 30%;
     width: 100%;
-    background-color: antiquewhite;
+    padding-top: 10%;
     margin-bottom: 10px;
 }
 .item-icon-con{
@@ -170,4 +164,645 @@
     background-color: rgb(147, 148, 149);
     border-radius: 15px;
     margin-right: 6px;
+}
+
+
+
+@media screen and (max-width:300px){
+    .con{
+        height: 70%;
+    }
+    .essential-vitaminse-main-hea{
+        font-size: 36px;
+    }
+    .online-medical-p{
+        font-size: 12px; 
+        line-height: 14px;   
+        margin-bottom: 0px;    
+    }
+    .main-left-h{
+        font-size: 10px;   
+        margin: 0px;
+    }
+    
+    .explore-more-btn{
+        height: 30px;
+        width: 70px;
+        font-size: 8px;
+        margin-top: 0pc;
+    }
+
+    .img-top-con{
+        height: 100%;
+        width: 100%;
+        
+    }
+    .img-design-con{
+        height: 68%;
+        width: 90%;
+        border-top-left-radius:60px;
+        border-bottom-right-radius: 60px;
+    }
+    
+    .captuals-bottle-img{
+       height: 150px;
+       width: 150px;
+       bottom:26%;
+       left: -20%;
+    }
+
+    .item-con{
+        height: 40%;
+
+    }
+    .item-icon-con{
+        height: 55.6%;
+        width: 29.8%;
+        position: relative;
+    }
+    .item-content-con{
+        height: 80%;
+        width: 90%;
+        padding-left: 5%;
+    }
+    .all-items-con{
+        height: 80%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .item-con{
+        width: 50%;
+    }
+    .item-title{
+        font-size: 9px;
+        margin-bottom: 0px;
+        margin-top: 15px;
+    }
+
+    .item-dis{    
+       font-size: 9px; 
+       margin-top: 5px;
+       line-height: 9px;
+    }
+
+}
+@media screen and (min-width:301px) and (max-width:400px){
+ 
+    .con{
+        height: 70%;
+    }
+    .essential-vitaminse-main-hea{
+        font-size: 36px;
+    }
+    .online-medical-p{
+        font-size: 12px; 
+        line-height: 14px;   
+        margin-bottom: 0px;    
+    }
+    .main-left-h{
+        font-size: 10px;   
+        margin: 0px;
+    }
+    
+    .explore-more-btn{
+        height: 40px;
+        width: 100px;
+        font-size: 10px;
+        margin-top: 0pc;
+    }
+
+    .img-top-con{
+        height: 100%;
+        width: 100%;
+        
+    }
+    .img-design-con{
+        height: 70%;
+        width: 100%;
+        border-top-left-radius:60px;
+        border-bottom-right-radius: 60px;
+    }
+    
+    .captuals-bottle-img{
+       height: 180px;
+       width: 180px;
+       bottom:18%;
+       left: -24%;
+    }
+
+    .item-con{
+        height: 40%;
+
+    }
+    .item-icon-con{
+        height: 55.6%;
+        width: 29.8%;
+        position: relative;
+    }
+    .item-content-con{
+        height: 80%;
+        width: 90%;
+        padding-left: 5%;
+    }
+    .all-items-con{
+        height: 90%;
+        width: 99%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .item-con{
+        width: 50%;
+    }
+    .item-title{
+        font-size: 12px;
+        margin-bottom: 0px;
+        margin-top: 15px;
+    }
+
+    .item-dis{    
+       font-size: 9px; 
+       margin-top: 5px;
+       line-height: 10px;
+    }
+
+}
+
+
+@media screen and (min-width:400px) and (max-width:500px){
+   
+    
+    .con{
+        height: 70%;
+    }
+    .essential-vitaminse-main-hea{
+        font-size: 36px;
+    }
+    .online-medical-p{
+        font-size: 12px; 
+        line-height: 14px;   
+        margin-bottom: 0px;    
+    }
+    .main-left-h{
+        font-size: 14px;   
+        margin: 0px;
+    }
+    
+    .explore-more-btn{
+        height: 40px;
+        width: 100px;
+        font-size: 10px;
+        margin-top: 0pc;
+    }
+
+    .img-top-con{
+        height: 100%;
+        width: 100%;
+        
+    }
+    .img-design-con{
+        height: 80%;
+        width: 80%;
+        border-top-left-radius:60px;
+        border-bottom-right-radius: 60px;
+    }
+    
+    .captuals-bottle-img{
+       height: 210px;
+       width: 210px;
+       bottom:10%;
+       left: -16%;
+    }
+
+    .item-con{
+        height: 40%;
+
+    }
+    .item-icon-con{
+        height: 55.6%;
+        width: 29.8%;
+        position: relative;
+    }
+    .item-content-con{
+        height: 80%;
+        width: 90%;
+        padding-left: 5%;
+    }
+    .all-items-con{
+        height: 80%;
+        width: 99%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .item-con{
+        width: 50%;
+    }
+    .item-title{
+        font-size: 12px;
+        margin-bottom: 0px;
+        margin-top: 15px;
+    }
+
+    .item-dis{    
+       font-size: 9px; 
+       margin-top: 5px;
+       line-height: 10px;
+    }
+}
+
+@media screen and (max-width:501px){
+    .main-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main-left-con{
+        height: 60%;
+        width: 48%;
+    }
+    .main-image-con{
+        height: 60%;
+        width: 48%;
+    }
+    .main-right-con{
+        height: 45%;
+        width: 100%;
+    }
+    .item-con{
+        height: 80px;
+    }
+    .pagination-con{
+        height: 10vh;
+        padding-top: 40px;
+    }
+    .item-dis{
+        font-size: 10px;
+    }
+    .item-title{
+        font-size: 12px;
+    }
+    .item-img{
+        height: 40px;
+        width: 40px;
+    }
+}
+@media screen and (min-width:500px) and (max-width:600px){
+    .con{
+        height: 40%;
+    }
+    .essential-vitaminse-main-hea{
+        font-size: 36px;
+    }
+    .online-medical-p{
+        font-size: 12px; 
+        line-height: 14px;   
+        margin-bottom: 4px;    
+    }
+    .main-left-h{
+        font-size: 12px;   
+    }
+    
+    .explore-more-btn{
+        height: 34px;
+        width: 80px;
+        font-size: 10px;
+    }
+
+    .img-top-con{
+        height: 100%;
+        width: 100%;
+        padding-bottom: 20%;
+    }
+    .img-design-con{
+        height:50%;
+        width:90%;
+        border-top-left-radius:70px;
+        border-bottom-right-radius: 70px;
+    }
+    
+    .captuals-bottle-img{
+       height: 200px;
+       width: 200px;
+       bottom:36%;
+       left: -22%;
+    }
+
+    .item-con{
+        height: 30%;
+
+    }
+    .item-icon-con{
+        height: 55.6%;
+        width: 29.8%;
+        position: relative;
+    }
+    .item-content-con{
+        height: 80%;
+        width: 90%;
+        padding-left: 5%;
+    }
+    .all-items-con{
+        height: 56%;
+    }
+    .item-title{
+        font-size: 10px;
+        margin-bottom: 0px;
+        margin-top: 15px;
+    }
+
+    .item-dis{    
+       font-size: 9px; 
+       margin-top: 5px;
+       line-height: 10px;
+    }
+}
+@media screen and (min-width:600px) and (max-width:700px){
+    .con{
+        height: 40%;
+    }
+    .essential-vitaminse-main-hea{
+        font-size: 36px;
+    }
+    .online-medical-p{
+        font-size: 12px; 
+        line-height: 14px;   
+        margin-bottom: 4px;    
+    }
+    .main-left-h{
+        font-size: 12px;  
+    }
+    
+    .explore-more-btn{
+        height: 34px;
+        width: 80px;
+        font-size: 10px;
+    }
+
+    .img-top-con{
+        height: 100%;
+        width: 100%;
+        padding-bottom: 20%;
+    }
+    .img-design-con{
+        height: 65%;
+        width: 100%;
+        border-top-left-radius:80px;
+        border-bottom-right-radius: 70px;
+    }
+    
+    .captuals-bottle-img{
+       height: 240px;
+       width: 240px;
+       bottom:30%;
+       left: -10%;
+    }
+
+    .item-con{
+        height: 30%;
+
+    }
+    .item-icon-con{
+        height: 55.6%;
+        width: 29.8%;
+        position: relative;
+    }
+    .item-content-con{
+        height: 80%;
+        width: 90%;
+        padding-left: 5%;
+    }
+    .all-items-con{
+        height: 56%;
+    }
+    .item-title{
+        font-size: 10px;
+        margin-bottom: 0px;
+        margin-top: 15px;
+    }
+
+    .item-dis{    
+       font-size: 9px; 
+       margin-top: 5px;
+       line-height: 10px;
+    }
+}
+
+@media screen and (min-width:700px) and (max-width:767px){
+    .essential-vitaminse-main-hea{
+        font-size: 40px;
+    }
+    .online-medical-p{
+        font-size: 15px;        
+    }
+    .main-left-h{
+        font-size: 15px;  
+
+    }
+    
+    .explore-more-btn{
+        height: 40px;
+        width: 100px;
+        font-size: 10px;
+    }
+
+    .img-top-con{
+        height: 100%;
+        width: 100%;
+        padding-bottom: 20%;
+    }
+    .img-design-con{
+        height: 75%;
+        width: 100%;
+        border-top-left-radius:100px;
+        border-bottom-right-radius: 100px;
+        margin-top: 20%;
+    }
+    
+    .captuals-bottle-img{
+       height: 240px;
+       width: 240px;
+       bottom:27%;
+       left: -10%;
+    }
+
+    .item-con{
+        height: 30%;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .item-icon-con{
+        height: 55.6%;
+        width: 29.8%;
+        position: relative;
+    }
+    .item-content-con{
+        height: 80%;
+        width: 90%;
+        padding-left: 5%;
+    }
+    .item-title{
+        font-size: 13px;
+        margin-bottom: 0px;
+        margin-top: 15px;
+    }
+
+    .item-dis{    
+       font-size: 10px; 
+       margin-top: 5px;
+       line-height: 16px;
+    }
+}
+
+
+@media screen and (min-width:767px) and (max-width:1024px){
+    .online-medical-p{
+        font-size: 17px;        
+    }
+    .main-left-h{
+        font-size: 20px;      
+    }
+    
+    .explore-more-btn{
+        height: 40px;
+        width: 120px;
+        font-size: 10px;
+    }
+
+    .img-top-con{
+        height: 100%;
+        width: 100%;
+        padding-bottom: 20%;
+    }
+    .img-design-con{
+        height: 70%;
+        width: 80%;
+        border-top-left-radius:60px;
+        border-bottom-right-radius: 60px;
+    }
+    
+    .captuals-bottle-img{
+       height: 250px;
+       width: 220px;
+       bottom:30%;
+       left: 6%;
+    }
+
+    .item-con{
+        height: 30%;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+   
+    .item-icon-con{
+        height: 55.6%;
+        width: 29.8%;
+        position: relative;
+    }
+    .item-content-con{
+        height: 80%;
+        width: 90%;
+        padding-left: 5%;
+    }
+    .item-title{
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+    .item-dis{    
+       font-size: 10px; 
+       margin-top: 0px;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1200px){
+    .online-medical-p{
+        font-size: 17px;        
+    }
+    .main-left-h{
+        font-size: 20px;      
+    }
+    
+    .explore-more-btn{
+        height: 40px;
+        width: 120px;
+        font-size: 10px;
+    }
+
+    .img-top-con{
+        height: 100%;
+        width: 100%;
+        padding-bottom: 0%;
+        margin-top: 20%;
+    }
+    .img-design-con{
+        height: 100%;
+        width: 80%;
+        border-top-left-radius:80px;
+        border-bottom-right-radius: 80px;
+    }
+    
+    .captuals-bottle-img{
+       height: 340px;
+       width: 340px;
+       bottom:20%;
+       left: 0%;
+    }
+
+    .item-con{
+        height: 30%;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .item-icon-con{
+        height: 70.6%;
+        width: 19.8%;
+        position: relative;
+    }
+    .item-content-con{
+        height: 100%;
+        width: 80%;
+        padding-left: 5%;
+    }
+    .item-title{
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+    .item-dis{    
+       font-size: 12px; 
+       margin-top: 0px;
+    }
+}
+
+@media screen and  (max-width:500px){
+    .pagination-con{
+        height: 10%;
+    }
+
+}
+@media screen and (min-width:500px) and  (max-width:600px){
+    .pagination-con{
+        height: 10%;
+    }
+    .main-bg-con{
+        height: 80vh;
+    }
+}
+@media screen and (min-width:600px) and  (max-width:800px){
+    .pagination-con{
+        height: 16%;
+    }
+    .main-bg-con{
+        height: 70vh;
+    }
+}
+
+
+@media screen and (min-width:1200px) and (max-width:1300px){
+    .pagination-con{
+        height: 20%;
+    }
+    .img-design-con{
+        width: 100%;
+    }
+    .captuals-bottle-img{
+        left:-20px;
+    }
 }

@@ -14,10 +14,18 @@
     position: relative;
 }
 
-@media screen and (max-width:300px){
+
+@media screen and (max-width:200px){
     .logo{
         height: 50px;
         width: 200px;
+        margin-left: 1%;
+    }
+}
+@media screen and (min-width:201px) and (max-width:300px){
+    .logo{
+        height: 20px;
+        width: 80px;
         margin-left: 1%;
     }
 }
